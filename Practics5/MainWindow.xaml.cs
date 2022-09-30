@@ -29,7 +29,7 @@ namespace Practics5
 
         private void CMmonth_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-          
+
         }
 
         private void RBzodiac_Checked(object sender, RoutedEventArgs e)
@@ -59,7 +59,7 @@ namespace Practics5
         private void TBbirthday_TextChanged(object sender, TextChangedEventArgs e)
         {
 
-            if(TBbirthday.Text != "")
+            if (TBbirthday.Text != "")
             {
                 try
                 {
@@ -70,7 +70,7 @@ namespace Practics5
                     MessageBox.Show("Вы ввели символ! Пожалуйста,введите цифрy");
                 }
             }
-           
+
 
         }
 
@@ -116,7 +116,7 @@ namespace Practics5
                 else
                 {
                     int date;
-                    date  =  Convert.ToInt32(TBbirthday.Text);
+                    date = Convert.ToInt32(TBbirthday.Text);
                     date %= 12;
                     date++;
 
@@ -140,14 +140,7 @@ namespace Practics5
 
 
                 }
-            
-        }
-
-          
-
-
-
-
+            }
             catch
             {
 
