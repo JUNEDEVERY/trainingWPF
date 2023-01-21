@@ -39,7 +39,7 @@ namespace Practics5
             ZodiacStackPanel.Visibility = Visibility.Visible;
             CMmonth.Visibility = Visibility.Visible;
             TBname.Text = "Введите дату своего рождения";
-
+            TBname.ToolTip = "Введите дату своего рождения";
             // RBeast.IsChecked = false;
 
         }
@@ -52,7 +52,7 @@ namespace Practics5
             Eastzodiac.Visibility = Visibility.Visible;
             CMmonth.Visibility = Visibility.Collapsed;
             TBname.Text = "Введите год своего рождения";
-
+            TBname.ToolTip = "Введите год своего рождения";
 
         }
 

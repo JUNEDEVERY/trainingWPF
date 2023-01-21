@@ -24,8 +24,18 @@
         <StackPanel Grid.Row="1" Grid.ColumnSpan="3">
             <TextBlock Text="Выберите действие"  TextAlignment="Center"></TextBlock>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
-                <RadioButton Name="RBzodiac" Checked="RBzodiac_Checked">Определение знака зодиака</RadioButton >
-                <RadioButton Margin="15 0 0 0" Name="RBeast" Checked="RBeast_Checked">Определение по восточному гороском</RadioButton>
+                <RadioButton Name="RBzodiac" Checked="RBzodiac_Checked" Cursor="Hand" Content="Определение знака зодиака">
+                    <RadioButton.ToolTip>
+                        <ToolTip>Нажмите, чтобы определить знак зодиака</ToolTip>
+                    </RadioButton.ToolTip>
+                </RadioButton >
+                <RadioButton Margin="15 0 0 0" Name="RBeast" Checked="RBeast_Checked" Cursor="Hand" Content="Определение по восточному гороскопу">
+
+                    <RadioButton.ToolTip>
+                        <ToolTip>Нажмите, чтобы определить знак зодиака по восточному гороскопу</ToolTip>
+                    </RadioButton.ToolTip>
+            
+                </RadioButton>
 
             </StackPanel>
 
@@ -34,7 +44,7 @@
 
         <StackPanel   Name="ZodiacStackPanel"  Grid.Row="2" Visibility="Collapsed" Grid.ColumnSpan="3">
 
-            <ComboBox MaxWidth="190" Name="CMmonth">
+            <ComboBox Cursor="Hand" MaxWidth="190" Name="CMmonth">
                 <ComboBoxItem>Январь</ComboBoxItem>
                 <ComboBoxItem>Февраль</ComboBoxItem>
                 <ComboBoxItem>Март</ComboBoxItem>
@@ -49,12 +59,18 @@
                 <ComboBoxItem>Декабрь</ComboBoxItem>
             </ComboBox>
 
-            <TextBlock Name="TBname" Margin="0 15 0 0" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock  Name="TBname" Margin="0 15 0 0" HorizontalAlignment="Center"></TextBlock>
 
             <TextBox Name="TBbirthday" Width="90" TextChanged="TBbirthday_TextChanged"></TextBox>
 
             <StackPanel>
-                <Button Template="{StaticResource btnTemp}" Margin="0 14 0 0" MaxWidth="70" Name="btnResult" Background="White"  Click="btnResult_Click">Рассчет</Button>
+                <Button Cursor="Hand" Template="{StaticResource btnTemp}" Margin="0 14 0 0" MaxWidth="70" Name="btnResult" Background="White"  Click="btnResult_Click" Content="Определить">
+                    <Button.ToolTip>
+                        <ToolTip>
+                            Нажмите, чтобы определить узнать результат!
+                        </ToolTip>
+                    </Button.ToolTip>
+                </Button>
             </StackPanel>
 
         </StackPanel>

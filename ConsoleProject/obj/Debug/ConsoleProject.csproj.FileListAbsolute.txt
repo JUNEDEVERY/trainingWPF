@@ -6,3 +6,15 @@ C:\Users\stron\source\repos\Practics5\ConsoleProject\obj\Debug\ConsoleProject.cs
 C:\Users\stron\source\repos\Practics5\ConsoleProject\obj\Debug\ConsoleProject.csproj.CoreCompileInputs.cache
 C:\Users\stron\source\repos\Practics5\ConsoleProject\obj\Debug\ConsoleProject.exe
 C:\Users\stron\source\repos\Practics5\ConsoleProject\obj\Debug\ConsoleProject.pdb
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\bin\Debug\ConsoleProject.exe.config
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\bin\Debug\ConsoleProject.exe
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\bin\Debug\ConsoleProject.pdb
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\obj\Debug\ConsoleProject.csproj.AssemblyReference.cache
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\obj\Debug\ConsoleProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\obj\Debug\ConsoleProject.csproj.CoreCompileInputs.cache
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\obj\Debug\ConsoleProject.exe
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\obj\Debug\ConsoleProject.pdb
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\bin\Debug\Practics5.exe
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\bin\Debug\Practics5.pdb
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\bin\Debug\Practics5.exe.config
+C:\Users\stron\Source\Repos\trainingWPF1\ConsoleProject\obj\Debug\ConsoleProject.csproj.CopyComplete
